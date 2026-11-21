@@ -3,7 +3,8 @@ name: Post next reel
 on:
   schedule:
     - cron: "30 3 * * *"
-    - cron: "30 14 * * *"
+    - cron: "0 8 * * *"
+    - cron: "0 14 * * *"
   workflow_dispatch:
     inputs:
       mode:
